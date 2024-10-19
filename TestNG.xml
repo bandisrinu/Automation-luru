@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="automation-luru">
+	<parameter name="browser" value="Chrome" />
+	<parameter name="language" value="en" />
+	<parameter name="siteURL" value="https:www.luru.app/" />
+	<parameter name="email" value="shailajav@b2btesters.com" />
+	<parameter name="password" value="Sh@ilaja1996" />
+	<test name="automation-luru">
+		<classes>
+			<class name="com.luru.web.tests.LuruLoginTest" />
+			<class name="com.luru.web.tests.TasksTest" />
+			<class name="com.luru.web.tests.NotesTest" />
+			<class name="com.luru.web.tests.SettingsTest" />
+			<class name="com.luru.web.tests.PipeLineTest" />
+		</classes>
+	</test>
+</suite>
